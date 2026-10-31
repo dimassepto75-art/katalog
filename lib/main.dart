@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const seedColor = Color(0xFF176B5B);
+    const seedColor = Color.fromARGB(255, 235, 55, 235);
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
